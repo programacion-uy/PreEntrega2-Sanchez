@@ -29,7 +29,7 @@ function inicio()
 
     document.getElementById("horaInicio").addEventListener("input",mostrarValor)
     document.getElementById("horaFinal").addEventListener("input",mostrarValor)
-    document.getElementById("btnCalcular").addEventListener("input",iniciarSimulacion)
+    document.getElementById("btnCalcular").addEventListener("click",iniciarSimulacion)
 }
 // Función para iniciar la simulación
 function iniciarSimulacion() {
